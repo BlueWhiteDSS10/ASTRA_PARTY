@@ -1,0 +1,376 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+}
+
+.titleArt{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 40px;
+}
+
+.container{
+    width:100%;
+    max-width: 1200px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:auto;
+    margin-bottom: 5px;
+}
+
+.post-title{
+    color: #f5576c;
+}
+.post-info{
+    color: #4c4848;
+}
+
+.container .card{
+    width:310px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow:hidden;
+    margin: 10px;
+    text-align: center;
+    transition: all 0.25s;
+
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img{
+    width: 300px;
+    height: 220px;
+    margin-bottom: 10px;
+}
+
+.container .card h4{
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.container .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.container .card a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.titulo{
+    color: #F5576C;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+header{
+    width: 100%;
+    height: 650px;
+    background-image: linear-gradient(120deg, rgba(240, 147, 251, 0.45) 10%, rgba(245, 87, 108, 0.45) 100%), url("../img/Fiestitita.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav> a{
+    color: #fdfdfd;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav> a:hover{
+    text-decoration: underline;
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.textos-header h1{
+    font-size: 90px;
+    color: #fff;
+}
+
+.textos-header h2{
+    font-size: 50px;
+    color: #fff;
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    color: #fdfdfd;
+    margin-bottom: 10px;
+}
+
+.textos-header a{
+    display: inline-block;
+    text-decoration: none;
+    padding:  12px 15px;
+    background: #f5576c;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.galeria{
+    background: #f2f2f2;
+}
+
+.rowmargin{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.row{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 35px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+.galeria-cont{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.galeria-cont>img{
+    width: 30%;
+    font-family: 'Rubik', sans-serif;
+    object-fit: cover;
+    margin-bottom: 20px;
+    display: block;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.articulos{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.contenedor{
+    padding: 65px 0 80px 0;
+}
+
+.submit-button{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.btn-common {
+    text-align: center;
+    margin-bottom: 35px;
+    background-color: #f5576c;
+    position: center;
+    z-index: 1;
+    box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
+    width: 160px;
+    height: 50px;
+    padding: 14px 15px; }
+
+.btn-common:hover {
+    text-align: center;
+    margin-bottom: 35px;
+    color: #fff;
+    transform: translateY(-2px); }
+
+.btn {
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 14px;
+    padding: 10px 30px;
+    border-radius: 4px;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    display: inline-block; }
+
+.btn:focus,
+.btn:active {
+    text-align: center;
+    margin-bottom: 35px;
+    box-shadow: none;
+    outline: none; }
+
+@media screen and (max-width:800px){
+    .textos-hero h1{
+        text-align: center;
+        font-size:50px;
+    }
+
+    .titulo{
+        font-size:35px;
+    }
+
+    .titulo.left{
+        text-align: center;
+    }
+
+    /*cards*/
+    .card{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    /*galeria*/
+    .galeria-cont>img{
+        width: 48%;
+    }
+
+    .servicio-cont{
+        display:block;
+    }
+}
+
+@media screen and(max-width:400px){
+    .titulo,
+    .textos-hero h1{
+        font-size: 30px;
+    }
+    .textos-hero p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .card{
+        height: 380px;
+    }
+
+    .galeria-cont>img{
+        width:98%;
+    }
+    .servicio-cont{
+        display:block;
+    }
+
+
+}
+
+--------
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards .card{
+    background: #f5576c;
+    display: flex;
+    width:100%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+.cards .card img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 80%;
+    display: block;
+}
+
+.cards .card > .contenido-texto-card{
+    width: 60%;
+    color: #fff;
+}
+
+.cards .card > .contenido-texto-card p{
+    font-weight: 300;
+}
+
+.about-service{
+
+    background: #f2f2f2;
+    padding-bottom: 30px;
+}
+
+.servicio-cont{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicio-ind{
+    margin: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.servicio-ind img{
+    width:28%;
+    text-align: center;
+}
+
+.servicio-ind h3{
+    margin: 10px 0;
+}
+
+.servicio-ind p{
+    font-weight: 300;
+    text-align: justify;
+}
